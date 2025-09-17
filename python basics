@@ -1,0 +1,308 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "21143553-a7e1-4f98-b30b-d02fdcdc576d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Charan 18 7.5 True\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"Charan\"\n",
+    "age = 18\n",
+    "gpa = 7.5\n",
+    "is_student = True \n",
+    "print (name,age,gpa,is_student)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "7faa3421-45d9-4e40-a0e9-6c9b85fa938e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'> <class 'float'> <class 'str'> <class 'bool'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 10 \n",
+    "y = 3.14\n",
+    "z = \"Python\" \n",
+    "flag = False\n",
+    "print(type(x), type(y), type(z), type(flag))  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "f7436153-79ce-4b8c-b3a9-053f63e02323",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "charan avinash college of commerce java\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"charan\"\n",
+    "college = \"avinash college of commerce\"\n",
+    "favorite_programming_language = \"java\"\n",
+    "print(name,college,favorite_programming_language)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "cbe56a7d-a19e-4557-8cae-394bca7509b9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2007 2025 18\n"
+     ]
+    }
+   ],
+   "source": [
+    "birth_year=2007\n",
+    "current_year=2025\n",
+    "current_year-birth_year\n",
+    "print(birth_year,current_year,current_year-birth_year)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "c2264268-afb3-4a55-b025-6143a95100ad",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "demon slayer infinity castel arc 2025 9.6\n"
+     ]
+    }
+   ],
+   "source": [
+    "movie_name = \"demon slayer infinity castel arc\"\n",
+    "release_year = 2025\n",
+    "rating = 9.6\n",
+    "print (movie_name,release_year,rating)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "f0b886b9-6647-47de-b60e-7ba81e532a8f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "addition: 29\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 15\n",
+    "b = 14\n",
+    "print( \"addition:\",a + b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "98a372e5-fab5-442d-acab-0f1160019783",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "division: 1.0714285714285714\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 15\n",
+    "b = 14\n",
+    "print (\"division:\",a/b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "3e54ee6a-c72d-417f-83d5-6a0b41c613a6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "floor division: 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 15\n",
+    "b = 14\n",
+    "print (\"floor division:\",a//b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "18a3aad4-4080-4b03-9640-e5198d507611",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "power: 29192926025390625\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 15\n",
+    "b = 14 \n",
+    "print (\"power:\",a**b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "8db2f4a5-3888-4af9-8b95-0bd96c63b992",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "addition: 29\n",
+      "division: 1.0714285714285714\n",
+      "floor division: 1\n",
+      "power: 29192926025390625\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 15\n",
+    "b = 14\n",
+    "print( \"addition:\",a + b)\n",
+    "print (\"division:\",a/b)\n",
+    "print (\"floor division:\",a//b)\n",
+    "print (\"power:\",a**b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "4c6d4908-e9ed-4cfe-affe-a1ad8d2e739a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 10 \n",
+    "b = 20\n",
+    "print(a > b ) # False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "13c45bb4-9535-4b3f-a1ac-201df5313f6c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "b = 20\n",
+    "print (a == 10) # True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "f3488b83-cc6e-481f-96e4-e21acd2068fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "b = 20\n",
+    "print ((a < b ) and (b == 20)) # True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cf3e7ef2-58b5-4fbb-98fb-36219ad02bec",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
