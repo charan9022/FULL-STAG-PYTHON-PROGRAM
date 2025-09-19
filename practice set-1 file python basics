@@ -1,0 +1,96 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "f59e1b53-24dc-418b-926f-d4367080d664",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "charan avinash college of commerce python full stack\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = (\"charan\")\n",
+    "college = \"avinash college of commerce\"\n",
+    "favourite_programming_language = \"python full stack\"\n",
+    "print (name,college,favourite_programming_language)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "e25e1438-0e99-4d2a-b261-d9ef17d36ca0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2007 2025 18\n"
+     ]
+    }
+   ],
+   "source": [
+    "birth_year = 2007\n",
+    "current_year  = 2025\n",
+    "current_year-birth_year\n",
+    "print (birth_year,current_year,current_year-birth_year)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "98c48bd0-ea35-43dd-b7cd-9deba089249f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "demon slayer infinity castle arc 2025 9.6\n"
+     ]
+    }
+   ],
+   "source": [
+    "movie_name = (\"demon slayer infinity castle arc\")\n",
+    "release_year = 2025\n",
+    "rating = 9.6\n",
+    "print (movie_name,release_year,rating)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c20153c7-3de7-4f7e-8e64-6b5ffc986156",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
